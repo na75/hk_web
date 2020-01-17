@@ -1,0 +1,72 @@
+body{
+	margin: 0 20px 0px;
+}
+
+header　#workname{
+	background-color:#000000;
+	text-align:center; 
+	color: #ffffff;
+	font-size: 18px;
+}
+
+.pagemap ul{
+  display: flex;
+  flex-direction: row;
+}
+
+.pagemap ul > li {
+  flex: auto;
+}
+
+.hero h1{
+font-size: 40px;
+font-weight: bold;
+}
+
+.sec_ttl{
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.sec_ttl span{
+	font-size: 16px;
+	color:#FF695E;
+}
+
+.sec h3{
+	font-size: 24px;
+	margin-bottom: 40px;
+}
+
+.sec p{
+	margin-bottom: 40px;
+	line-height: 1.5;
+}
+
+.sec button{
+	border-radius: 8px;
+	display: inline-block;
+}
+
+.case_container{
+	background-color: rgba(0,0,255,0.6); 
+}
+
+.case_container h3{
+	font-size: 18px;
+}
+
+.case_container dl dt{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.case_container dl dd{
+	font-size: 12px;
+}
+
+#sec--profile{
+	background-color: #000000;
+}
