@@ -58,8 +58,12 @@ text-align:center;
 }
 
 .sec button{
-	width:200px;
+	width:50%;
+	float:left;
+	max-width:200px;
 	height:60px;
+	font-size:14px;
+	box-sizing:border-box;
 	background-color:#ffffff;
 	border:solid 1px #FF695E;
 	border-radius: 8px;
@@ -67,7 +71,7 @@ text-align:center;
 }
 
 .case_container{
-	background-color: rgba(0,0,255,0.6); 
+	background-color: rgba(0,0,0,0.6); 
 }
 
 .case_container h3{
@@ -86,3 +90,10 @@ text-align:center;
 #sec--profile{
 	background-color: #000000;
 }
+
+#sec--profile dl,
+#sec--profile h2,
+#sec--profile h3{
+	color:#ffffff;
+}
+
