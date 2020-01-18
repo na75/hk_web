@@ -35,14 +35,6 @@ font-weight: bold;
 text-align:center;
 }
 
-.btn_flex{
-  display: flex;
-  height: 60px;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
 .sec_ttl{
 	font-size: 24px;
 	font-weight: bold;
@@ -65,6 +57,11 @@ text-align:center;
 	margin-bottom: 40px;
 }
 
+.sec{
+	box-sizing:border-box;
+	padding:0 20px
+}
+
 .sec p{
 	margin-bottom: 40px;
 	line-height: 1.5;
@@ -72,7 +69,6 @@ text-align:center;
 
 .sec button{
 	width:50%;
-	float:left;
 	max-width:200px;
 	height:60px;
 	font-size:14px;
