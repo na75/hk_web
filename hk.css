@@ -1,5 +1,4 @@
 body{
-	margin: 0 20px 0px;
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -12,12 +11,15 @@ body{
 
 .pagemap ul{
   display: flex;
+  height: 60px;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .pagemap ul > li {
-font-size:12px;
-  flex: auto;
+	font-size:12px;
+	flex: auto;
 }
 
 .hero {
@@ -36,6 +38,7 @@ text-align:center;
 .sec_ttl{
 	font-size: 24px;
 	font-weight: bold;
+	line-height:1;
 	text-align:center;
 	margin-top: 60px;
 	margin-bottom: 60px;
@@ -43,11 +46,13 @@ text-align:center;
 
 .sec_ttl span{
 	font-size: 16px;
+	font-weight:normal;
 	color:#FF695E;
 }
 
 .sec h3{
 	font-size: 24px;
+	font-weight:normal;
 	text-align:center;
 	margin-bottom: 40px;
 }
@@ -76,9 +81,16 @@ text-align:center;
 
 .case_container h3{
 	font-size: 18px;
+	text-align:left;
+	margin-bottom:20px;
+}
+
+.case_container dl{
+	width:180px;
 }
 
 .case_container dl dt{
+	font-size:16px;
 	font-size: 14px;
 	font-weight: bold;
 }
@@ -97,3 +109,6 @@ text-align:center;
 	color:#ffffff;
 }
 
+#sec--profile dd{
+font-size:16px;
+}
