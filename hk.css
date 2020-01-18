@@ -35,6 +35,14 @@ font-weight: bold;
 text-align:center;
 }
 
+.btn_flex{
+  display: flex;
+  height: 60px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 .sec_ttl{
 	font-size: 24px;
 	font-weight: bold;
